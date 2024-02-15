@@ -1,0 +1,390 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(134, 7, 7, 0.6)),url(bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem 0 3rem;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding-inline: 1rem;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.top-nav {
+    display: flex;
+}
+
+.icon-nav a {
+    font-size: 1.25rem;
+}
+
+.logo-nav img {
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main-info {
+    color: white;
+    padding: 10rem 5rem 0 5rem;
+}
+
+.name {
+    font-size: 5rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.name span {
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.place {
+    letter-spacing: 2.5px;
+}
+
+.sec-middle {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(249, 250, 251);
+    color: rgb(194, 34, 34);
+    display: flex;
+    align-items: center;
+    padding: 9rem 7.5rem;
+    justify-content: space-between;
+}
+
+.sec-middle-left {
+    width: 50ch;
+}
+
+.sec-middle p {
+    line-height: 2;
+}
+
+h3 {
+    font-size: 3rem;
+    color: rgb(210, 15, 15);
+}
+
+.sec-middle img {
+    width: 30vw;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.sec-middle img:hover {
+    width: 35vw;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transform: scale(1.05);
+}
+
+.ent {
+    padding: 10.1rem 7.5rem;
+    background: #0c0909;
+    color: rgb(235, 235 , 235);
+}
+
+.ent h3 {
+    background: #0c0909;
+    color: rgb(220, 20, 20);
+}
+
+.ent img {
+    border-radius: 10px;
+    width: 30vw;
+}
+
+.ent-left {
+    order: 2;
+}
+
+.competition {
+    padding: 9rem 7.5rem;
+    color: rgb(194, 34, 34);
+}
+
+.competition > p {
+    color: black;
+}
+
+h2 {
+    font-size: 10rem;
+}
+
+.free {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.competition-text1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.email {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+hr {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+    color: rgb(194, 34, 34);
+}
+
+footer a {
+    text-decoration: none;
+    padding-inline: 1.25rem;
+    color: rgb(194, 34, 34);
+}
+
+footer p {
+    font-weight: 500;
+    cursor: pointer;
+}
+.background-section {
+    background: url('C:/Users/Adil/Desktop/paris.jpeg') center/cover no-repeat;
+}
+.background-section2 {
+    background: url('R\ \(1\).jpeg') center/cover no-repeat;
+}
+.background-section3 {
+    background: url('paris_yellow_lighting_eiffel_tower_closeup_view_hd_travel.jpg') center/cover no-repeat;
+}
+.background-section4 {
+    background: url('what-not-to-do-in-Paris-1024x707.jpg') center/cover no-repeat;
+}
+.container2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgb(30, 161, 161)),url(bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgb(255, 218, 41)),url(bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),#90ee90),url(bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec-middle2 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f9fafb;
+    color: rgb(46, 139, 87);
+    display: flex;
+    align-items: center;
+    padding: 9rem 7.5rem;
+    justify-content: space-between;
+}
+.sec-middle2 img {
+    width: 30vw;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.sec-middle2 img:hover {
+    width: 35vw;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transform: scale(1.05);
+}
+.sec-middle3 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f9fafb;
+    color: rgb(106, 67, 37);
+    display: flex;
+    align-items: center;
+    padding: 9rem 7.5rem;
+    justify-content: space-between;
+}
+.sec-middle3 img {
+    width: 30vw;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.sec-middle3 img:hover {
+    width: 35vw;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transform: scale(1.05);
+}
+.sec-middle4 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f9fafb;
+    color: rgb(18, 93, 13);
+    display: flex;
+    align-items: center;
+    padding: 9rem 7.5rem;
+    justify-content: space-between;
+}
+.sec-middle4 img {
+    width: 30vw;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.sec-middle4 img:hover {
+    width: 35vw;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transform: scale(1.05);
+}
+
+
+
+
+
+.main {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #240046;
+    max-height: 420px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 7px 7px 10px 3px #24004628;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 24px;
+  }
+  
+  /*checkbox to switch from sign up to login*/
+  #chk {
+    display: none;
+  }
+  
+  /*Login*/
+  .login {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .login label {
+    margin: 25% 0 5%;
+  }
+  
+  label {
+    color: #fff;
+    font-size: 2rem;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+  }
+  
+  .input {
+    width: 100%;
+    height: 40px;
+    background: #e0dede;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+  }
+  
+  /*Register*/
+  .register {
+    background: #eee;
+    border-radius: 60% / 10%;
+    transform: translateY(5%);
+    transition: .8s ease-in-out;
+  }
+  
+  .register label {
+    color: #573b8a;
+    transform: scale(.6);
+  }
+  
+  #chk:checked ~ .register {
+    transform: translateY(-60%);
+  }
+  
+  #chk:checked ~ .register label {
+    transform: scale(1);
+    margin: 10% 0 5%;
+  }
+  
+  #chk:checked ~ .login label {
+    transform: scale(.6);
+    margin: 5% 0 5%;
+  }   
+  /*Button*/
+  .form button {
+    width: 85%;
+    height: 40px;
+    margin: 12px auto 10%;
+    color: #fff;
+    background: #573b8a;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s ease-in;
+  }
+  
+  .form button:hover {
+    background-color: #6d44b8;
+  }
