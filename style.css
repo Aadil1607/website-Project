@@ -184,7 +184,7 @@ footer p {
     cursor: pointer;
 }
 .background-section {
-    background: url('C:/Users/Adil/Desktop/paris.jpeg') center/cover no-repeat;
+    background: url(Paris.jpeg) center/cover no-repeat;
 }
 .background-section2 {
     background: url('R\ \(1\).jpeg') center/cover no-repeat;
